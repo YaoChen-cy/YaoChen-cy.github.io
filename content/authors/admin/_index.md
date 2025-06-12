@@ -85,8 +85,8 @@ work:
     company_name: Ontario Teachers' Pension Plan
     company_url: ''
     company_logo: ''
-    date_start: 2024-09
-    date_end: 2025-05
+    date_start: 2024-09-01
+    date_end: 2025-04-30
     summary: |2-
       Responsibilities include:
       - Developed an end-to-end predictive model pipeline in Snowflake, reducing manual QA workload by 79\% with $<5\%$ risk.
@@ -97,8 +97,8 @@ work:
     company_name: Microsoft (China) Co., Ltd
     company_url: ''
     company_logo: ''
-    date_start: 2024-04
-    date_end: 2024-07
+    date_start: 2024-04-20
+    date_end: 2024-07-20
     summary: |
       Responsibilities include:
       - Analyzed churn behavior and user interactions using SCOPE and Redash SQL on 100+ GB of telemetry data.
