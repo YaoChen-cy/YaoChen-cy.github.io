@@ -1,0 +1,40 @@
+<div class="gallery-grid">
+  {{ $dir := .Get "album" }}
+  {{ with .Page.Resources.Match (printf "%s/*" $dir) }}
+    {{ range . }}
+      {{ $image := . }}
+      {{ $thumb := $image.Resize "600x" }}
+      <figure class="gallery-item">
+        <a href="{{ $image.RelPermalink }}" data-fancybox="gallery">
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}">
+        </a>
+      </figure>
+    {{ end }}
+  {{ end }}
+</div>
+
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem 0;
+}
+
+.gallery-item {
+  margin: 0;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.02);
+}
+</style>
