@@ -1,12 +1,10 @@
 <div class="gallery-grid">
   {{ $dir := .Get "album" }}
-  {{ with .Page.Resources.Match (printf "%s/*" $dir) }}
-    {{ range . }}
-      {{ $image := . }}
-      {{ $thumb := $image.Resize "600x" }}
+  {{ range (readDir (printf "content/%s/%s" $.Page.File.Dir $dir)) }}
+    {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".gif") }}
       <figure class="gallery-item">
-        <a href="{{ $image.RelPermalink }}" data-fancybox="gallery">
-          <img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}">
+        <a href="{{ (printf "/%s/%s/%s" $.Page.File.Dir $dir .Name) | relURL }}" data-fancybox="gallery">
+          <img src="{{ (printf "/%s/%s/%s" $.Page.File.Dir $dir .Name) | relURL }}" alt="{{ .Name }}">
         </a>
       </figure>
     {{ end }}
