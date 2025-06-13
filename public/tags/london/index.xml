@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>London | Yao Chen&#39;s World</title>
-    <link>http://localhost:63748/tags/london/</link>
-      <atom:link href="http://localhost:63748/tags/london/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:50621/tags/london/</link>
+      <atom:link href="http://localhost:50621/tags/london/index.xml" rel="self" type="application/rss+xml" />
     <description>London</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:63748/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:50621/media/icon_hu7729264130191091259.png</url>
       <title>London</title>
-      <link>http://localhost:63748/tags/london/</link>
+      <link>http://localhost:50621/tags/london/</link>
     </image>
     
     <item>
       <title>A World in Bloom</title>
-      <link>http://localhost:63748/publication/cherryblossoms/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63748/publication/cherryblossoms/</guid>
+      <link>http://localhost:50621/publication/cherryblossoms/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50621/publication/cherryblossoms/</guid>
       <description>&lt;!-- Discovering beauty in urban environments.  --&gt;
 &lt;!-- ## Photo Gallery --&gt;
 &lt;div class=&#34;gallery-grid&#34;&gt;
@@ -24,112 +24,112 @@
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6505.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6505.JPG&#34; alt=&#34;IMG_6505.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; alt=&#34;IMG_6612.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6526.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6526.JPG&#34; alt=&#34;IMG_6526.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; alt=&#34;IMG_6747.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6530.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6530.JPG&#34; alt=&#34;IMG_6530.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; alt=&#34;IMG_6758.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6541.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6541.JPG&#34; alt=&#34;IMG_6541.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; alt=&#34;IMG_6761.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6595.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6595.JPG&#34; alt=&#34;IMG_6595.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; alt=&#34;IMG_6764.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; alt=&#34;IMG_6612.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; alt=&#34;IMG_6765.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; alt=&#34;IMG_6747.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; alt=&#34;IMG_6766.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; alt=&#34;IMG_6758.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; alt=&#34;IMG_6772.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; alt=&#34;IMG_6761.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; alt=&#34;IMG_6776.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; alt=&#34;IMG_6764.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img1.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img1.JPG&#34; alt=&#34;img1.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; alt=&#34;IMG_6765.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img2.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img2.JPG&#34; alt=&#34;img2.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; alt=&#34;IMG_6766.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img3.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img3.JPG&#34; alt=&#34;img3.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; alt=&#34;IMG_6772.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img4.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img4.JPG&#34; alt=&#34;img4.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; alt=&#34;IMG_6776.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img5.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/CherryBlossoms/gallery/img5.JPG&#34; alt=&#34;img5.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     

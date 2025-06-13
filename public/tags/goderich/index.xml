@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goderich | Yao Chen&#39;s World</title>
-    <link>http://localhost:63748/tags/goderich/</link>
-      <atom:link href="http://localhost:63748/tags/goderich/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:50621/tags/goderich/</link>
+      <atom:link href="http://localhost:50621/tags/goderich/index.xml" rel="self" type="application/rss+xml" />
     <description>Goderich</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:63748/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:50621/media/icon_hu7729264130191091259.png</url>
       <title>Goderich</title>
-      <link>http://localhost:63748/tags/goderich/</link>
+      <link>http://localhost:50621/tags/goderich/</link>
     </image>
     
     <item>
       <title>Star Falls on Lake Huron</title>
-      <link>http://localhost:63748/publication/cherryblossoms/</link>
+      <link>http://localhost:50621/publication/godrich/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63748/publication/cherryblossoms/</guid>
+      <guid>http://localhost:50621/publication/godrich/</guid>
       <description>&lt;!-- Discovering beauty in urban environments.  --&gt;
 &lt;!-- ## Photo Gallery --&gt;
 &lt;div class=&#34;gallery-grid&#34;&gt;
@@ -24,225 +24,72 @@
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6505.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6505.JPG&#34; alt=&#34;IMG_6505.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6795.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6795.JPG&#34; alt=&#34;IMG_6795.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6526.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6526.JPG&#34; alt=&#34;IMG_6526.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6798.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6798.JPG&#34; alt=&#34;IMG_6798.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6530.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6530.JPG&#34; alt=&#34;IMG_6530.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6807.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6807.JPG&#34; alt=&#34;IMG_6807.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6541.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6541.JPG&#34; alt=&#34;IMG_6541.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6813.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6813.JPG&#34; alt=&#34;IMG_6813.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6595.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6595.JPG&#34; alt=&#34;IMG_6595.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6833.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6833.JPG&#34; alt=&#34;IMG_6833.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6612.JPG&#34; alt=&#34;IMG_6612.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6843.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6843.JPG&#34; alt=&#34;IMG_6843.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6747.JPG&#34; alt=&#34;IMG_6747.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6849.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6849.JPG&#34; alt=&#34;IMG_6849.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6758.JPG&#34; alt=&#34;IMG_6758.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6853.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6853.JPG&#34; alt=&#34;IMG_6853.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
   
     
       &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6761.JPG&#34; alt=&#34;IMG_6761.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6764.JPG&#34; alt=&#34;IMG_6764.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6765.JPG&#34; alt=&#34;IMG_6765.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6766.JPG&#34; alt=&#34;IMG_6766.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6772.JPG&#34; alt=&#34;IMG_6772.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/CherryBlossoms/gallery/IMG_6776.JPG&#34; alt=&#34;IMG_6776.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-&lt;/div&gt;
-
-&lt;style&gt;
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-   
-  grid-gap: 1rem;
-  padding: 1rem 0;
-}
-
-.gallery-item {
-  margin: 0;
-  position: relative;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.gallery-item img:hover {
-  transform: scale(1.02);
-}
-&lt;/style&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Star Falls on Lake Huron</title>
-      <link>http://localhost:63748/publication/godrich/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63748/publication/godrich/</guid>
-      <description>&lt;!-- Discovering beauty in urban environments.  --&gt;
-&lt;!-- ## Photo Gallery --&gt;
-&lt;div class=&#34;gallery-grid&#34;&gt;
-  
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6795.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6795.JPG&#34; alt=&#34;IMG_6795.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6798.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6798.JPG&#34; alt=&#34;IMG_6798.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6807.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6807.JPG&#34; alt=&#34;IMG_6807.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6813.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6813.JPG&#34; alt=&#34;IMG_6813.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6833.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6833.JPG&#34; alt=&#34;IMG_6833.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6843.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6843.JPG&#34; alt=&#34;IMG_6843.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6849.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6849.JPG&#34; alt=&#34;IMG_6849.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6853.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6853.JPG&#34; alt=&#34;IMG_6853.JPG&#34;&gt;
-        &lt;/a&gt;
-      &lt;/figure&gt;
-    
-  
-    
-      &lt;figure class=&#34;gallery-item&#34;&gt;
-        &lt;a href=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6869.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
-          &lt;img src=&#34;http://localhost:63748/publication/Godrich/gallery/IMG_6869.JPG&#34; alt=&#34;IMG_6869.JPG&#34;&gt;
+        &lt;a href=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6869.JPG&#34; data-fancybox=&#34;gallery&#34;&gt;
+          &lt;img src=&#34;http://localhost:50621/publication/Godrich/gallery/IMG_6869.JPG&#34; alt=&#34;IMG_6869.JPG&#34;&gt;
         &lt;/a&gt;
       &lt;/figure&gt;
     
