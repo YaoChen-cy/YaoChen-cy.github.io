@@ -207,6 +207,7 @@
       "font-semibold",
       "footer-license-icons",
       "from-primary-200",
+      "gallery",
       "gallery-grid",
       "gallery-item",
       "gap-1",
@@ -548,7 +549,7 @@
     "ids": [
       "-click-here-to-become-a-sponsor-and-help-support-hugo-bloxs-future-httpshugobloxcomsponsor",
       "callouts",
-      "chart-981425367",
+      "chart-963542178",
       "charts",
       "code",
       "crowd-funded-open-source-software",
