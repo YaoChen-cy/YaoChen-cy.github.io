@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature | Yao Chen&#39;s World</title>
+    <link>http://localhost:61071/tags/nature/</link>
+      <atom:link href="http://localhost:61071/tags/nature/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nature</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:61071/media/icon_hu7729264130191091259.png</url>
+      <title>Nature</title>
+      <link>http://localhost:61071/tags/nature/</link>
+    </image>
+    
+    <item>
+      <title>Nature Photography</title>
+      <link>http://localhost:61071/publication/goderich/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61071/publication/goderich/</guid>
+      <description>&lt;p&gt;Capturing the beauty of nature through the lens.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

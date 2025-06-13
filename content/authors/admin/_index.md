@@ -46,10 +46,6 @@ profiles:
   # - icon: academicons/orcid
   #   url: https://orcid.org/
 
-interests:
-  - MIMO Detection
-  - Computer Vision
-
 education:
   - area: Master of Science (M.Sc.) in Computer Science (Thesis)
     institution: McGill University
@@ -80,6 +76,11 @@ education:
       
       Courses included:
       - ...
+
+interests:
+  - MIMO Detection
+  - Computer Vision
+
 work:
   - position: Business Analytics Intern
     company_name: Ontario Teachers' Pension Plan
@@ -109,7 +110,8 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: ''
+  #Technical Skills
     items:
       - name: Python
         description: ''
@@ -123,30 +125,31 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
+  - name: ''
+  #Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 75
         icon: person-simple-walk
       - name: Cats
         description: ''
-        percent: 100
+        percent: 80
         icon: cat
       - name: Photography
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
 
-# languages:
-#   - name: English
-#     percent: 100
-#   - name: Chinese
-#     percent: 75
-#   - name: French
-#     percent: 5
+languages:
+  - name: English
+    percent: 90
+  - name: Chinese
+    percent: 100
+  - name: French
+    percent: 5
 
 # Awards
 # Add/remove as many awards below as you like.

@@ -3,11 +3,11 @@
 <!-- Last Published: June 12, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63748&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="陈瑶" />
+  <meta name="author" content="Yao Chen" />
 
   
   
@@ -44,7 +44,7 @@
   <meta name="description" content="Easily learn JavaScript in 10 minutes!" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/teaching/js/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:63748/teaching/js/" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
   
 
   
@@ -158,10 +158,10 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
 
-  <link rel="canonical" href="http://localhost:1313/teaching/js/" />
+  <link rel="canonical" href="http://localhost:63748/teaching/js/" />
 
   
   
@@ -186,10 +186,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Yao Chen&#39;s World" />
-  <meta property="og:url" content="http://localhost:1313/teaching/js/" />
+  <meta property="og:url" content="http://localhost:63748/teaching/js/" />
   <meta property="og:title" content="Learn JavaScript | Yao Chen&#39;s World" />
-  <meta property="og:description" content="Easily learn JavaScript in 10 minutes!" /><meta property="og:image" content="http://localhost:1313/teaching/js/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/teaching/js/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Easily learn JavaScript in 10 minutes!" /><meta property="og:image" content="http://localhost:63748/teaching/js/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:63748/teaching/js/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -239,6 +239,35 @@
   
   
   
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
     
       
       
@@ -275,61 +304,6 @@
   
   
   
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
     
       
       
@@ -449,55 +423,6 @@
         
       
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
 
@@ -523,40 +448,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -760,7 +712,7 @@
     <div class="order-0 h-100">
       
       <a class="navbar-brand" href="/" title="Yao Chen&#39;s World">
-        Your Name
+        pxxxzq
       </a>
     </div>
     
@@ -797,50 +749,8 @@
         <a
           class="nav-link "
           
-          href="/"
-        >Bio</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/#papers"
-        >Papers</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/#talks"
-        >Talks</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/#news"
-        >News</a
+          href="/photography/"
+        >Framing the World</a
         >
       </li>
       
@@ -854,35 +764,7 @@
           class="nav-link "
           
           href="/experience/"
-        >Experience</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/projects/"
-        >Projects</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link "
-          
-          href="/teaching/"
-        >Teaching</a
+        >Footprints &amp; Milestones</a
         >
       </li>
       
@@ -896,9 +778,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -939,8 +821,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -985,6 +885,49 @@
               
             </li></ul>
       </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/"
+    
+  >Wanderlens
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/elora/"
+    
+  >Whispers of Spring in Elora
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/cherryblossoms/"
+    
+  >Star Falls on Lake Huron
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publication/godrich/"
+    
+  >Star Falls on Lake Huron
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/photography/"
+    
+  >Photography
+    </a></li>
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
@@ -1160,42 +1103,6 @@
               
             </li></ul>
       </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/"
-    
-  >Publications
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/preprint/"
-    
-  >An example preprint / working paper
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/journal-article/"
-    
-  >An example journal article
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/publication/conference-paper/"
-    
-  >An example conference paper
-    </a>
-              
-            </li></ul>
-      </div></li>
     </ul>
 
     <ul class="flex flex-col gap-1 max-lg:hidden">
@@ -1284,14 +1191,16 @@
 
   <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
     <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      
       <div class="mb-1">
         <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
       <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
-        <a href="http://localhost:1313/teaching/">Teaching</a>
+        <a href="http://localhost:63748/teaching/">Teaching</a>
       </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Learn JavaScript</div>
 </div>
 
       </div>
+      
 
       <div class="content text-base">
         <h1>Learn JavaScript</h1>
@@ -1300,8 +1209,12 @@
 <p>On this page, you&rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.</p>
 <h2 id="video">Video</h2>
 <p>Teach your course by sharing videos with your students. Choose from one of the following approaches:</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
     </div>
 
 <p><strong>Youtube</strong>:</p>
@@ -1516,7 +1429,7 @@ data.head()
 
   
   <p class="powered-by text-center">
-    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Me.
   </p>
   
 

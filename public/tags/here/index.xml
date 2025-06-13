@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Here | Yao Chen&#39;s World</title>
+    <link>http://localhost:61071/tags/here/</link>
+      <atom:link href="http://localhost:61071/tags/here/index.xml" rel="self" type="application/rss+xml" />
+    <description>Here</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:61071/media/icon_hu7729264130191091259.png</url>
+      <title>Here</title>
+      <link>http://localhost:61071/tags/here/</link>
+    </image>
+    
+    <item>
+      <title>Your Publication Title</title>
+      <link>http://localhost:61071/publication/new-publication/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61071/publication/new-publication/</guid>
+      <description>&lt;p&gt;Add your publication content here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

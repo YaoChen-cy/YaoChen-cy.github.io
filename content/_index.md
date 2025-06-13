@@ -19,17 +19,32 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: light
+      css_style: "color: white !important;"
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: blue.jpg
+          # filename: stacked-peaks.svg
+          filename: pink.jpg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+          css_style: "transform: rotate(90deg);"
+  - block: resume-skills
+    content:
+      title: 🌟 Skills & Hobbies
+      username: admin
+    design:
+      show_skill_percentage: false
+      columns: '2'
+      css_style: "text-align: center; margin: 0 auto;"
+  - block: resume-languages
+    content:
+      title: 📚 Languages
+      username: admin
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
@@ -45,11 +60,12 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Wanderlens
+      title: 📸 Wanderlens
       filters:
         folders:
           - publication
         featured_only: true
+      text: ""
     design:
       view: article-grid
       columns: 2

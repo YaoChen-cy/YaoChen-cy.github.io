@@ -1,7 +1,7 @@
 <div class="gallery-grid">
   {{ $dir := .Get "album" }}
   {{ range (readDir (printf "content/%s/%s" $.Page.File.Dir $dir)) }}
-    {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".gif") }}
+    {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".JPG") (strings.HasSuffix .Name ".jpeg") (strings.HasSuffix .Name ".png") (strings.HasSuffix .Name ".gif") }}
       <figure class="gallery-item">
         <a href="{{ (printf "/%s/%s/%s" $.Page.File.Dir $dir .Name) | relURL }}" data-fancybox="gallery">
           <img src="{{ (printf "/%s/%s/%s" $.Page.File.Dir $dir .Name) | relURL }}" alt="{{ .Name }}">
@@ -15,6 +15,7 @@
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, auto-fill); */
   grid-gap: 1rem;
   padding: 1rem 0;
 }

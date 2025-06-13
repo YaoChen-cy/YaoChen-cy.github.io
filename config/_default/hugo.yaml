@@ -7,6 +7,7 @@
 title: Yao Chen's World
 # Website URL
 baseURL: 'https://yaochen-cy.github.io'
+hugo_version: '0.136.5'
 
 ############################
 ## LANGUAGE
