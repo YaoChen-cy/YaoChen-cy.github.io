@@ -52,7 +52,13 @@ education:
     date_start: 2023-01-01
     date_end: 2025-12-30
     summary: |
-      Thesis on singnal recovery in MIMO Detection. Supervised by [Prof Chang Xiao-Wen](https://www.cs.mcgill.ca/~chang/).
+      Research Related:
+      - Supervised by [Prof Chang Xiao-Wen](https://www.cs.mcgill.ca/~chang/).
+      - Investigating non-convex optimization methods for sparse signal recovery in MIMO communication systems.
+      - Developing and analyzing ADMM-based algorithms to solve L0-regularized least squares problems.
+      - Implementing deep learning-aided sphere decoding(SD) algorithm for an underdetermined system, focusing on channel permutation to accelerate the search for SD.
+      Courses included:
+      - Generalized Linear Models, Matrix Computations, Digital Communication, NLP
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -73,9 +79,11 @@ education:
     date_end: 2022-12-31
     summary: |
       GPA: 3.94/4.0
-      
       Courses included:
-      - ...
+      - Data Structures and Algorithm
+      - Applied Machine Learning
+      - Artificial Intelligence
+      - Time Series Analysis, Applied Regression, Linear Algebra, Statistics, Probability
 
 interests:
   - MIMO Detection
@@ -90,7 +98,7 @@ work:
     date_end: 2025-04-30
     summary: |2-
       Responsibilities include:
-      - Developed an end-to-end predictive model pipeline in Snowflake, reducing manual QA workload by 79\% with $<5\%$ risk.
+      - Developed an end-to-end predictive model pipeline in Snowflake, reducing manual QA workload by 79% with <5\% risk.
       - Ingested and cleaned data from multiple sources using Python and SQL for scalable integration.
       - Engineered features based on time-series and population-level patterns to enhance model performance.
       - Deployed XGBoost model and integrated them into a user-interactive Streamlit app for real-time business prediction.
