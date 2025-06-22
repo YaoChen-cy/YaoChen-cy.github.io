@@ -57,6 +57,7 @@ education:
       - Investigating non-convex optimization methods for sparse signal recovery in MIMO communication systems.
       - Developing and analyzing ADMM-based algorithms to solve L0-regularized least squares problems.
       - Implementing deep learning-aided sphere decoding(SD) algorithm for an underdetermined system, focusing on channel permutation to accelerate the search for SD.
+   
       Courses included:
       - Generalized Linear Models, Matrix Computations, Digital Communication, NLP
     # button:
@@ -79,6 +80,7 @@ education:
     date_end: 2022-12-31
     summary: |
       GPA: 3.94/4.0
+    
       Courses included:
       - Data Structures and Algorithm
       - Applied Machine Learning
